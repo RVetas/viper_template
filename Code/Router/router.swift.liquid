@@ -7,11 +7,16 @@
 //
 
 class {{ module_info.name }}Router {
-    
+    var transitionHandler: UIViewController?
+
     static func setupModule() -> {{ module_info.name }}ViewController {
         let viewController = {{ module_info.name }}ViewController(nibName: "{{ module_info.name }}ViewController", bundle: nil)
+
         let presenter = {{ module_info.name }}Presenter()
+
         let router = {{ module_info.name }}Router()
+        router.transitionHandler = viewController
+
         let interactor = {{ module_info.name }}Interactor()
 
         viewController.presenter = presenter
