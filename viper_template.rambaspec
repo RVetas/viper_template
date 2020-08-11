@@ -10,6 +10,7 @@ license: "MIT"
 code_files:
 # View layer
 - {name: View/ViewController.swift, path: Code/View/viewcontroller.swift.liquid}
+- {name: View/ViewController.xib, path: Code/View/viewcontroller.xib.liquid}
 
 # Presenter layer
 - {name: Presenter/Presenter.swift, path: Code/Presenter/presenter.swift.liquid}
