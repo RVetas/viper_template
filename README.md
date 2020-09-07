@@ -1,7 +1,16 @@
 # Шаблон модуля с VIPER архитектурой
 Создает
-1. View в виде ViewController и xib для него
-2. Presenter
-3. Interactor
-4. Router. В данном шаблоне также отвечает за создание модуля
-5. Файл Contract, содержащий описание протоколов взаимодействия компонентов модуля
+- View в виде ViewController и *.xib для него
+- Presenter
+- Interactor
+- Router. В данном шаблоне также отвечает за создание модуля
+- Файл Contract, содержащий описание протоколов взаимодействия компонентов модуля
+
+# VIPER module template
+It creates
+- ViewController as View with *.xib
+- Presenter
+- Interactor
+- Router
+  - In this template router is also a configurator/builder
+- Contract file containing all protocols
